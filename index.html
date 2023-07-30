@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Content Management Tool</title>
+   <meta name="author" content="Aditya Sharma">
+   <meta name="keywords" content="HTML,CSS,JS">
+   <meta name="description" content="">
+    <link rel="stylesheet" rel="text/style" href="style.css">
+</head>
+
+<body>
+  <div class="top-sec">
+    <div class="top">
+      <h1>Content Management Tool</h1>
+       <img src="https://img.freepik.com/premium-vector/creative-idea-digital-portfolio-online-design-concepts-with-character_269730-321.jpg?w=740" />
+    </div>
+
+    <div class="card">
+      <div class="input-sec">
+        <b><label for="title">Title:</label></b> <br/>
+        <input class="input" type="text" id="title" placeholder="Enter title">  <br/>
+        <b><label for="content">Content:</label></b>  <br/>
+        <input class="input" id="content" placeholder="Enter content"/>
+      </div>
+
+      <div class="input-sec">
+        <b><label class="label-section" for="image">Image:</label></b>
+        <input type="file" id="image" accept="image/*">
+      </div>
+
+      <div class="input-sec">
+        <b><label class="label-section" for="video">Video:</label></b>
+        <input type="file" id="video" accept="video/*">
+      </div>
+    </div>
+  </div>
+
+  <div class="button-sec">
+    <button onclick="submitForm()">Submit</button>
+  </div>
+
+  <div class="data-conta">
+    <div class="data-section" id="dataSection">
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
